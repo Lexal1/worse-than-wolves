@@ -11,6 +11,9 @@ src/btw/**
 # Ignore local Minecraft folder
 .minecraft
 
+# Ignore testing instance
+run/**
+
 # IntelliJ
 *.iml
 .idea/workspace.xml
