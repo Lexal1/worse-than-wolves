@@ -1,7 +1,7 @@
 package net.fabricmc.example;
 
+import btw.community.example.WorseThanWolves;
 import net.fabricmc.loader.api.entrypoint.PreLaunchEntrypoint;
-import btw.community.example.ExampleAddon;
 
 public class ExamplePreLaunchInitializer implements PreLaunchEntrypoint {
     /**
@@ -11,6 +11,6 @@ public class ExamplePreLaunchInitializer implements PreLaunchEntrypoint {
      */
     @Override
     public void onPreLaunch() {
-        ExampleAddon.getInstance();
+        WorseThanWolves.getInstance();
     }
 }
